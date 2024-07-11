@@ -1,0 +1,40 @@
+.iconoRotate {
+    color: #fff;
+    font-size: 24vh;
+    animation: animationRotate 2s linear infinite;
+}
+
+.container__textRotate {
+    color: #fff;
+    font-size: 4vh;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container__Button {
+    margin-top: 10vh;
+}
+
+.Button__rotar {
+    font-size: 4vh;
+    font-weight: 500;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1rem;
+    border-radius: .8vh;
+}
+
+@keyframes animationRotate {
+    0% {
+
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(-48deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
